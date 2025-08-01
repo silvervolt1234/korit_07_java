@@ -9,8 +9,23 @@ public class Method02 {
 
     // call4() 유형으로 작성 -> 몇 줄 짜리인지 / 어떤 유형의 별찍기인지를 main 에서 받을 예정
     public static String getStar(int row, int option) {
+        // 메서드 내에서만 사용하는 지역 변수(local variable) 선언 및 초기화
         String result ="";
         // 별찍기 로직 자리
+        // 주의할 점은 sout이 아니라 return 타입이 고정되어야 하는 점
+        // 별찍기 로직을 그대로 가져오되 sout 출력이면 안됨
+        if(option == 1) {
+
+        } else if (option == 2) {
+
+        } else if (option == 3) {
+
+        } else if (option == 4) {
+
+        } else {
+            result = "해당 기능이 없습니다";
+        }
+
         return result;
     }
 
