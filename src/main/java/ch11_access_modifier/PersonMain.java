@@ -13,7 +13,7 @@ class Person {
 }
 
 /*
-    setter / getter는 default로 access modifier가 public 이므로 클래스 외부 서용 가능
+    setter / getter는 default로 access modifier가 public 이므로 클래스 외부 사용 가능
 
     setter / getter를 이용해 처음 이름을 김일로 입려고하고 콘솔에 출력
     다시 이름을 이일로 수정하고 콘솔에 출력
