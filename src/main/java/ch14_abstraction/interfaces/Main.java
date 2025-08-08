@@ -33,6 +33,22 @@ public class Main {
         tvRemoteController.onDownVolumeDownButton();
         tvRemoteController.onPressedVolumeUpButton();
         System.out.println(tvRemoteController.onUpVolumeUpButton());
+        System.out.println();
+
+
+
+        AirConditionerController airConditionerController = new AirConditionerController(
+                new PowerButton(), new TemperatureUpButton(), new TemperatureDownButton(), new ModChange()
+        );
+
+        airConditionerController.onPressedPowerButton();
+        airConditionerController.onPressedTemperatureUpButton();
+        System.out.println(airConditionerController.onUpTemperatureUpButton());
+        airConditionerController.onPressedTemperatureDownButton();
+        airConditionerController.onDownTemperatureDownButton();
+        airConditionerController.onPressedModChange();
+        airConditionerController.onPressedModChange();
+        airConditionerController.onPressedPowerButton();
     }
     /*
         VolumeDownButton / VolumeUpButton 클래스를 생성하고
@@ -45,4 +61,5 @@ public class Main {
         음량을 한 칸 올립니다
         음량을 계속 올립니다
      */
+
 }
