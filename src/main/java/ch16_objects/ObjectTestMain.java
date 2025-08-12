@@ -29,6 +29,6 @@ public class ObjectTestMain {
         System.out.println(result5);        // false
 
         boolean result6 = strArray[0].equals(example2);
-        System.out.println(result6);        // ture
+        System.out.println(result6);        // true
     }
 }
