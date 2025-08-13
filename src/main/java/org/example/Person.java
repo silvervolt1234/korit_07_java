@@ -1,12 +1,10 @@
 package org.example;
 
 import lombok.Builder;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.Data;
 
 @Builder
-@ToString
-@Getter
+@Data
 public class Person {
     String name;
     double height;
