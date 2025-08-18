@@ -1,4 +1,4 @@
-package ch21.json.pratctice;
+package ch21_json.pratctice;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
